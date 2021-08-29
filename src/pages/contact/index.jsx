@@ -3,7 +3,7 @@ import React from "react"
 //custom component
 import Layout from "../../layout"
 
-const contact = () => {
+const Contact = () => {
   return (
     <Layout>
       <h1>contact page</h1>
@@ -12,4 +12,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
