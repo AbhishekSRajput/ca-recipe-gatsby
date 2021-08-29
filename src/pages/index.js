@@ -1,5 +1,18 @@
 import React from "react"
+import { Link } from "gatsby"
 
-export default function Home() {
-  return <div>Hello world!</div>
+//custom component
+import Layout from "../layout"
+
+const Home = () => {
+  return (
+    <Layout>
+      <h1>Home page</h1>
+      <div>Hello world!!!!</div>
+      <p>reload is working well??</p>
+      <Link to="/about">About</Link>
+    </Layout>
+  )
 }
+
+export default Home
