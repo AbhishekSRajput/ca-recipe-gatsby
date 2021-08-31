@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 
 //global css
+import "normalize.css"
 import "../assets/css/main.css"
 
 const Layout = ({ children }) => {

@@ -2,9 +2,7 @@
 *,
 ::after,
 ::before {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -71,7 +69,7 @@
 }
 html {
   font-size: var(--defaultFontSize);
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 @media only screen and (min-width: 576px) {
   :root {
