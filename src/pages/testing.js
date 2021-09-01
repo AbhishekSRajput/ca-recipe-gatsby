@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Gallery from "../examples/Gallery"
 
 const Testing = ({ data }) => {
   const author = data.site.info.author
@@ -7,6 +8,7 @@ const Testing = ({ data }) => {
     <>
       <h2>hello</h2>
       <h3>{author}</h3>
+      <Gallery />
     </>
   )
 }
